@@ -15,5 +15,6 @@ async function bootstrap() {
   SwaggerModule.setup('api', app, document);
 
   await app.listen(1506);
+  console.log("parchaa-ndhm-started");
 }
 bootstrap();

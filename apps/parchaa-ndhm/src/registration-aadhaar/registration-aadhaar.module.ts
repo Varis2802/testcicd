@@ -10,6 +10,7 @@ import { RegistrationAadhaarService } from './registration-aadhaar.service';
         name: 'ABHA-SERVICES',
         transport: Transport.TCP,
         options: {
+          // host:'abha-services',
           port: 8081
         }
       }

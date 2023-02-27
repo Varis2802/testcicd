@@ -8,6 +8,7 @@ async function bootstrap() {
     {
       transport: Transport.TCP,
       options: {
+        // host:'abha-services',
         port: 8081,
         retryAttempts: 3,
         retryDelay: 1000

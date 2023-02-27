@@ -8,6 +8,7 @@ async function bootstrap() {
     {
       transport: Transport.TCP,
       options: {
+        // host:'user-services',
         port: 8082,
         retryAttempts: 3,
         retryDelay: 1000

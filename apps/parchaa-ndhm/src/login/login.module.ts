@@ -10,6 +10,7 @@ import { LoginService } from './login.service';
         name: 'ABHA-SERVICES',
         transport: Transport.TCP,
         options: {
+          // host:'abha-services',
           port: 8081
         }
       }
